@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "electron": "^35.0.1"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "main": "main.js",
+  "devDependencies": {
+    "electron-packager": "^17.1.2"
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Bar Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .result {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Touch Bar Calculator</h2>
+        <div class="result" id="display">0</div>
+        <p>Gunakan Touch Bar untuk memilih angka dan operasi.</p>
+    </div>
+
+    <script>
+        const { ipcRenderer } = require('electron');
+
+        ipcRenderer.on('update-display', (_, value) => {
+            document.getElementById('display').textContent = value;
+        });
+    </script>
+    <section>
+        <p style="text-align: center; justify-content: center; align-items: center;">github: @afzaalis</p>
+        </section>
+</body>
+</html>
