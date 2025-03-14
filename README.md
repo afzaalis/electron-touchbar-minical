@@ -2,7 +2,7 @@
 AVAILABLE ONLY FOR MACOS WITH TOUCHBAR
 
 ## 📌 Deskripsi
-Touch Bar App adalah aplikasi sederhana berbasis **Electron** yang menampilkan tombol interaktif di Touch Bar MacBook. Aplikasi ini memungkinkan pengguna untuk berinteraksi dengan tombol, mengubah emoji pet, dan memainkan mini game sederhana seperti tap counter.
+Touch Bar App adalah aplikasi sederhana berbasis **Electron** yang menampilkan tombol interaktif di Touch Bar MacBook. Aplikasi ini memungkinkan pengguna untuk berinteraksi dengan tombol untuk menggunakan calculator.
 <img src="touchbar-preview.jpg" alt="Tampilan Touch Bar" width="500">
 
 
