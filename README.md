@@ -1,9 +1,10 @@
 # Touch Bar App (Electron)
-AVAILABLE ONLY MACOS M1 ABOVE
+AVAILABLE ONLY FOR MACOS WITH TOUCHBAR
 
 ## 📌 Deskripsi
 Touch Bar App adalah aplikasi sederhana berbasis **Electron** yang menampilkan tombol interaktif di Touch Bar MacBook. Aplikasi ini memungkinkan pengguna untuk berinteraksi dengan tombol, mengubah emoji pet, dan memainkan mini game sederhana seperti tap counter.
-![Tampilan Touch Bar](touchbar-preview.jpg)
+<img src="touchbar-preview.jpg" alt="Tampilan Touch Bar" width="500">
+
 
 ## 🛠️ Fitur
 - **Tombol Interaktif** di Touch Bar.
