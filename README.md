@@ -44,7 +44,7 @@ Aplikasi akan terbuka, dan Touch Bar akan menampilkan tombol interaktif.
 
 ## 🖥️ Struktur Proyek
 ```
-/touchbar-app
+/src
 │── package.json    # Konfigurasi proyek dan dependensi
 │── main.js         # File utama untuk menjalankan Electron
 │── README.md       # Dokumentasi proyek
