@@ -8,12 +8,9 @@ Ke branch>builder> download
 Touch Bar App adalah aplikasi sederhana berbasis **Electron** yang menampilkan tombol interaktif di Touch Bar MacBook. Aplikasi ini memungkinkan pengguna untuk berinteraksi dengan tombol untuk menggunakan calculator.
 <img src="touchbar-preview.jpg" alt="Tampilan Touch Bar" width="500">
 
-
 ## 🛠️ Fitur
 - **Tombol Interaktif** di Touch Bar.
-- **Emoji Pet** yang berubah saat ditekan.
-- **Mini Game: Tap Counter** untuk menghitung jumlah klik.
-- **Desain Simpel & Mudah Dikembangkan** dengan JavaScript, HTML, dan CSS.
+- **Desain Simpel & Mudah Dikembangkan** dengan JavaScript.
 
 ## 🚀 Instalasi
 ### 1. Pastikan **Node.js** dan **npm** sudah terinstal
