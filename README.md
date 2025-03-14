@@ -1,6 +1,9 @@
 # Touch Bar App (Electron)
 AVAILABLE ONLY FOR MACOS WITH TOUCHBAR
 
+## Setup & instalasi
+Ke branch>builder> download
+
 ## 📌 Deskripsi
 Touch Bar App adalah aplikasi sederhana berbasis **Electron** yang menampilkan tombol interaktif di Touch Bar MacBook. Aplikasi ini memungkinkan pengguna untuk berinteraksi dengan tombol untuk menggunakan calculator.
 <img src="touchbar-preview.jpg" alt="Tampilan Touch Bar" width="500">
