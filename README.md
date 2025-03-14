@@ -51,27 +51,6 @@ Aplikasi akan terbuka, dan Touch Bar akan menampilkan tombol interaktif.
 │── README.md       # Dokumentasi proyek
 ```
 
-## 📜 Contoh Kode
-Berikut adalah contoh kode untuk menampilkan tombol di Touch Bar:
-```javascript
-const { app, BrowserWindow, TouchBar } = require('electron');
-const { TouchBarButton } = TouchBar;
-
-let mainWindow;
-app.whenReady().then(() => {
-    mainWindow = new BrowserWindow({ width: 800, height: 600 });
-    
-    const button = new TouchBarButton({
-        label: 'Click Me!',
-        backgroundColor: '#ff5a5f',
-        click: () => console.log('Button clicked!')
-    });
-    
-    const touchBar = new TouchBar({ items: [button] });
-    mainWindow.setTouchBar(touchBar);
-});
-```
-
 
 ---
 Made with ❤️ using Electron 🚀
